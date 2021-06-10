@@ -1,17 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import HomeScreen from "./Screens/HomeScreen/HomeScreen";
 
-class App extends Component {
-  render() {
-    return (
-      <main>
-        <div className="container">
-          {/* Screens */}
-          <HomeScreen></HomeScreen>
-        </div>
-      </main>
-    );
-  }
+function App() {
+  return (
+    <main>
+      <div className="container">
+        {/* Screens */}
+        <HomeScreen></HomeScreen>
+      </div>
+    </main>
+  );
 }
 
 export default App;
